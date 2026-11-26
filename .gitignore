@@ -1,0 +1,15 @@
+# Node dependencies and local configuration
+node_modules/
+**/node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+coverage/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+*.log

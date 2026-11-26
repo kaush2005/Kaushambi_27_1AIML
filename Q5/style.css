@@ -1,0 +1,47 @@
+ body {
+            font-family: Arial;
+            text-align: center;
+            background: #f2f2f2;
+        }
+
+        h2 {
+            color: darkblue;
+        }
+
+        #board {
+            display: grid;
+            grid-template-columns: repeat(10, 45px);
+            width: 450px;
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+
+        .cell {
+            width: 45px;
+            height: 45px;
+            border: 1px solid gray;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 13px;
+            background: white;
+        }
+
+        .snake {
+            background: #ff9999;
+        }
+
+        .ladder {
+            background: #90ee90;
+        }
+
+        .player {
+            background: gold;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
